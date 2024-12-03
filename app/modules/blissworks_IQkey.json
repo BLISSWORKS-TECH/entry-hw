@@ -1,0 +1,39 @@
+{
+    "id": "4A0801",
+    "name": {
+        "en": "IQ key",
+        "ko": "아이큐 키"
+    },
+    "category": "robot",
+    "platform": [
+        "win32"
+    ],
+    "icon": "blissworks_IQkey.png",
+    "module": "blissworks_IQkey.js",
+    "driver": {
+        "win32-ia32": "CH34x_install_Windows_v3_4/CH34x_install_Windows_v3_4.EXE",
+        "win32-x64": "CH34x_install_Windows_v3_4/CH34x_install_Windows_v3_4.EXE"
+    },
+    "url": "https://www.iqkey.co.kr",
+    "email": "info@blissworks.co.kr",
+    "reconnect": true,
+    "selectPort": true,
+    "hardware": {
+        "type": "serial",
+        "control": "master",
+        "scanType": "data",
+        "duration": 50,
+        "baudRate": 115200,
+        "parity": "none",
+        "dataBits": 8,
+        "stopBits": 1,
+        "byteDelimiter": [
+            36,
+            36
+        ],
+        "vendor": "blissworks",
+        "firmwarecheck": false,
+        "bufferSize": 1024,
+        "flowControl": "none"
+    }
+}
